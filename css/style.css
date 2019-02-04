@@ -1,0 +1,50 @@
+html,body
+{
+  text-align: center;
+    background-color: #E9967A;
+}
+#form-outer
+{
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 12px;
+  padding-top: 20px;
+}
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 5px solid #c0c0c0;
+  border-radius: 2px;
+}
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+#submit {
+  background-color: #40E0D0;
+  border-radius: 4px;
+  color: black;
+  font-size: 1em;
+  height: 35px;
+  width: 76px;
+  margin: 10px;
+  border: 0px solid;
+}

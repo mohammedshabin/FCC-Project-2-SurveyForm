@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 id="title">Survey Form</h1>
+<div id="form-outer">
+<p id="description">
+    Tell us about your experience!
+  </p>
+  <form id="survey-form">
+    <div class="rowTab">
+     <label id="name-label" for="name" name="name">* Name: </label>
+      <input type="text" id="name" placeholder="Enter Your Name" required>
+    </div>
+    <div class="rowTab">
+     <label id="email-label" for="email">* Email: </label>
+      <input type="email" id="email" name="email"  placeholder="Enter Your Email" required>
+    </div>
+    <div class="rowTab">
+      <label id="number-label" for="number">* Number:</label>
+       <input type="text" id="number" name="number" min="0" max="100"  placeholder="Enter Your Number" required>
+    </div>
+    <div class="rowtab">
+      <label id="dropdown">* Would you recommend our services to a family or friend?</label>
+      <select id="dropdown" class="dropdown">
+        <option value="absolutely">Absolutely</option>
+        <option  value="maybe">Maybe</option>
+        <option  value="no thanks">No Thanks</option>
+      </select>
+    </div>
+      <div class="rowTab">
+        <label>What is most important to you in a Realtor?</label> 
+    <ul style="list-style: none;">
+      <li class="radio"><label>Trustworthy<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>Knowledgeable<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Affordable<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+    <div class="rowTab">
+      <label>What caused you to sell your home?</label>
+      <ul style="list-style: none;">
+        <li class="checkbox"><label><input value="1" type="checkbox">Down-sizing</label></li>
+        <li class="checkbox"><label><input value="2" type="checkbox">Need more space</label></li>
+        <li class="checkbox"><label><input value="3" type="checkbox">Moving out of State</label></li>
+        <li class="checkbox"><label><input value="4" type="checkbox">Other</label></li>
+        </div>
+      <div class="rowTab">
+        <label>If "Other" please explain: </label>
+        <textarea style=" width:50%;height:50px;resize:vertical;"  placeholder="Enter your comment here..."></textarea>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  
+  
+
+</body>
+
+</html>
